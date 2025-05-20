@@ -1,0 +1,397 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Asad Noman - Odoo Developer Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-50 text-gray-800">
+  <!-- Header / Navbar -->
+  <header class="bg-white shadow-md fixed w-full z-30">
+   <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a class="text-2xl font-bold text-indigo-600" href="#">
+     Asad Noman
+    </a>
+    <nav class="hidden md:flex space-x-8 font-semibold text-gray-700">
+     <a class="hover:text-indigo-600 transition" href="#about">
+      About
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#skills">
+      Skills
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#projects">
+      Projects
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#experience">
+      Experience
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#contact">
+      Contact
+     </a>
+    </nav>
+    <button class="md:hidden text-gray-700 focus:outline-none" id="menu-btn">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </div>
+   <nav class="hidden md:hidden bg-white shadow-md" id="mobile-menu">
+    <a class="block px-6 py-3 border-b border-gray-200 hover:bg-indigo-50 transition" href="#about">
+     About
+    </a>
+    <a class="block px-6 py-3 border-b border-gray-200 hover:bg-indigo-50 transition" href="#skills">
+     Skills
+    </a>
+    <a class="block px-6 py-3 border-b border-gray-200 hover:bg-indigo-50 transition" href="#projects">
+     Projects
+    </a>
+    <a class="block px-6 py-3 border-b border-gray-200 hover:bg-indigo-50 transition" href="#experience">
+     Experience
+    </a>
+    <a class="block px-6 py-3 hover:bg-indigo-50 transition" href="#contact">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <main class="pt-24 max-w-7xl mx-auto px-6">
+   <!-- Hero Section -->
+   <section class="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-16 mb-20">
+    <div class="flex-shrink-0 w-48 h-48 rounded-full overflow-hidden border-4 border-indigo-600 shadow-lg">
+     <img alt="Portrait of Asad Noman, a confident young man with short black hair, wearing a smart casual shirt, smiling gently" class="w-full h-full object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/add54a6c-7305-4cdc-5300-49448931979a.jpg" width="300"/>
+    </div>
+    <div class="max-w-xl">
+     <h1 class="text-4xl font-extrabold text-indigo-600 mb-4">
+      Asad Noman
+     </h1>
+     <h2 class="text-xl font-semibold text-gray-700 mb-4">
+      Odoo Developer | ERP Specialist | Python &amp; JavaScript Enthusiast
+     </h2>
+     <p class="text-gray-600 leading-relaxed mb-6">
+      Experienced Odoo developer with a passion for building scalable ERP solutions. Skilled in Python, JavaScript, and PostgreSQL, with a strong background in customizing and integrating Odoo modules to optimize business processes.
+     </p>
+     <a class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-indigo-700 transition" href="#contact">
+      Contact Me
+     </a>
+    </div>
+   </section>
+   <!-- About Section -->
+   <section class="mb-20" id="about">
+    <h3 class="text-3xl font-bold text-indigo-600 mb-6 border-b-4 border-indigo-600 inline-block pb-1">
+     About Me
+    </h3>
+    <p class="text-gray-700 max-w-4xl leading-relaxed">
+     Hello! I'm Asad Noman, a dedicated Odoo developer with over 5 years of experience in designing, developing, and deploying Odoo ERP solutions for diverse industries. I specialize in customizing Odoo modules, developing new features, and integrating third-party services to streamline business operations. My expertise lies in Python backend development, JavaScript frontend enhancements, and database management with PostgreSQL. I am passionate about delivering high-quality, maintainable code and collaborating closely with clients to meet their unique business needs.
+    </p>
+   </section>
+   <!-- Skills Section -->
+   <section class="mb-20" id="skills">
+    <h3 class="text-3xl font-bold text-indigo-600 mb-6 border-b-4 border-indigo-600 inline-block pb-1">
+     Skills
+    </h3>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-4xl">
+     <div class="flex flex-col items-center">
+      <img alt="Python programming language logo, blue and yellow snake icon" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/9e385831-4295-4080-7e1c-b90d264c844b.jpg" width="64"/>
+      <span class="font-semibold text-gray-700">
+       Python
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="JavaScript programming language logo, yellow square with black JS letters" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/7356bec2-bc40-4021-84a5-83e7db3cd1a7.jpg" width="64"/>
+      <span class="font-semibold text-gray-700">
+       JavaScript
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Odoo ERP software logo, purple circle with white O letter" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/9b66d6d4-1489-4509-7477-9b4b9612bf35.jpg" width="64"/>
+      <span class="font-semibold text-gray-700">
+       Odoo ERP
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="PostgreSQL database logo, blue elephant head icon" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/75a393c0-a540-4779-b0a1-5b0a38e2d5cb.jpg" width="64"/>
+      <span class="font-semibold text-gray-700">
+       PostgreSQL
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="XML file format icon, blue document with angle brackets" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/96369bd7-413a-4d9f-3878-a8e9dfbfa8b8.jpg" width="64"/>
+      <span class="font-semibold text-gray-700">
+       XML
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Git version control system logo, orange diamond shape with white branching lines" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/6358c47e-489c-4f89-c497-80ce5ec3f2c1.jpg" width="64"/>
+      <span class="font-semibold text-gray-700">
+       Git
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="Linux operating system logo, black penguin mascot" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/ff64a330-8eb1-47fd-6d93-9d4f0828f887.jpg" width="64"/>
+      <span class="font-semibold text-gray-700">
+       Linux
+      </span>
+     </div>
+     <div class="flex flex-col items-center">
+      <img alt="REST API icon, network nodes connected by lines" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/bf728721-48e8-4475-185b-883a32ed3d75.jpg" width="64"/>
+      <span class="font-semibold text-gray-700">
+       REST API
+      </span>
+     </div>
+    </div>
+   </section>
+   <!-- Projects Section -->
+   <section class="mb-20" id="projects">
+    <h3 class="text-3xl font-bold text-indigo-600 mb-6 border-b-4 border-indigo-600 inline-block pb-1">
+     Projects
+    </h3>
+    <div class="grid gap-10 md:grid-cols-2 max-w-6xl">
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+      <img alt="Screenshot of a custom Odoo Inventory Management System dashboard showing stock levels and product categories" class="w-full h-48 object-cover" height="350" src="https://storage.googleapis.com/a1aa/image/53e8ab70-bfeb-4555-3bc7-3d5f17ea9251.jpg" width="600"/>
+      <div class="p-6">
+       <h4 class="text-xl font-semibold text-indigo-600 mb-2">
+        Custom Odoo Inventory Management System
+       </h4>
+       <p class="text-gray-700 mb-4">
+        Developed a tailored inventory management module for a retail client, enabling real-time stock tracking, automated reorder alerts, and barcode scanning integration.
+       </p>
+       <ul class="text-sm text-gray-600 mb-4 list-disc list-inside">
+        <li>
+         Customized Odoo v14 modules using Python and XML
+        </li>
+        <li>
+         Integrated with Zebra barcode scanners via REST API
+        </li>
+        <li>
+         Implemented automated email notifications for low stock
+        </li>
+       </ul>
+       <a class="inline-flex items-center text-indigo-600 hover:underline font-semibold" href="https://github.com/asadnoman/odoo-inventory" target="_blank">
+        View Code
+        <i class="fas fa-external-link-alt ml-2">
+        </i>
+       </a>
+      </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+      <img alt="Screenshot of a customized Odoo CRM interface showing sales pipeline stages and customer details" class="w-full h-48 object-cover" height="350" src="https://storage.googleapis.com/a1aa/image/8dca61ba-6d5e-47f9-cb35-c1cbb4c076f3.jpg" width="600"/>
+      <div class="p-6">
+       <h4 class="text-xl font-semibold text-indigo-600 mb-2">
+        Odoo CRM Customization for Sales Automation
+       </h4>
+       <p class="text-gray-700 mb-4">
+        Enhanced the Odoo CRM module to automate lead scoring, email campaigns, and sales pipeline visualization for a B2B software company.
+       </p>
+       <ul class="text-sm text-gray-600 mb-4 list-disc list-inside">
+        <li>
+         Developed custom Python models and views
+        </li>
+        <li>
+         Integrated with Mailchimp API for email marketing
+        </li>
+        <li>
+         Created dynamic Kanban views for sales stages
+        </li>
+       </ul>
+       <a class="inline-flex items-center text-indigo-600 hover:underline font-semibold" href="https://github.com/asadnoman/odoo-crm-custom" target="_blank">
+        View Code
+        <i class="fas fa-external-link-alt ml-2">
+        </i>
+       </a>
+      </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+      <img alt="Screenshot of Odoo Accounting module showing invoices and financial reports" class="w-full h-48 object-cover" height="350" src="https://storage.googleapis.com/a1aa/image/b36b391c-0930-4337-2d75-7731bd790e1a.jpg" width="600"/>
+      <div class="p-6">
+       <h4 class="text-xl font-semibold text-indigo-600 mb-2">
+        Accounting Module Integration &amp; Automation
+       </h4>
+       <p class="text-gray-700 mb-4">
+        Integrated third-party payment gateways and automated invoice generation for a manufacturing client using Odoo Accounting.
+       </p>
+       <ul class="text-sm text-gray-600 mb-4 list-disc list-inside">
+        <li>
+         Implemented payment gateway API integration
+        </li>
+        <li>
+         Automated invoice creation and emailing
+        </li>
+        <li>
+         Customized reports for financial analysis
+        </li>
+       </ul>
+       <a class="inline-flex items-center text-indigo-600 hover:underline font-semibold" href="https://github.com/asadnoman/odoo-accounting-integration" target="_blank">
+        View Code
+        <i class="fas fa-external-link-alt ml-2">
+        </i>
+       </a>
+      </div>
+     </article>
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+      <img alt="Screenshot of Odoo HR Management System showing employee profiles and attendance records" class="w-full h-48 object-cover" height="350" src="https://storage.googleapis.com/a1aa/image/f5efba8e-9362-4d99-4151-c94bc0b80727.jpg" width="600"/>
+      <div class="p-6">
+       <h4 class="text-xl font-semibold text-indigo-600 mb-2">
+        Odoo HR Management System Customization
+       </h4>
+       <p class="text-gray-700 mb-4">
+        Customized the HR module to include attendance tracking, leave management, and performance appraisal workflows for a mid-sized company.
+       </p>
+       <ul class="text-sm text-gray-600 mb-4 list-disc list-inside">
+        <li>
+         Developed custom attendance and leave models
+        </li>
+        <li>
+         Integrated biometric attendance devices
+        </li>
+        <li>
+         Created appraisal workflow automation
+        </li>
+       </ul>
+       <a class="inline-flex items-center text-indigo-600 hover:underline font-semibold" href="https://github.com/asadnoman/odoo-hr-custom" target="_blank">
+        View Code
+        <i class="fas fa-external-link-alt ml-2">
+        </i>
+       </a>
+      </div>
+     </article>
+    </div>
+   </section>
+   <!-- Experience Section -->
+   <section class="mb-20 max-w-4xl mx-auto" id="experience">
+    <h3 class="text-3xl font-bold text-indigo-600 mb-6 border-b-4 border-indigo-600 inline-block pb-1">
+     Experience
+    </h3>
+    <div class="space-y-8">
+     <div>
+      <h4 class="text-xl font-semibold text-gray-800">
+       Senior Odoo Developer
+      </h4>
+      <p class="text-indigo-600 font-semibold">
+       Tech Solutions Ltd. — Jan 2021 - Present
+      </p>
+      <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+       <li>
+        Lead development of custom Odoo modules for clients in retail, manufacturing, and services sectors.
+       </li>
+       <li>
+        Architected scalable ERP solutions integrating inventory, sales, accounting, and HR modules.
+       </li>
+       <li>
+        Mentored junior developers and conducted code reviews to ensure best practices.
+       </li>
+       <li>
+        Collaborated with clients to gather requirements and deliver tailored solutions.
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h4 class="text-xl font-semibold text-gray-800">
+       Odoo Developer
+      </h4>
+      <p class="text-indigo-600 font-semibold">
+       ERP Innovators — Jul 2018 - Dec 2020
+      </p>
+      <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+       <li>
+        Customized Odoo v12 and v13 modules to meet client-specific business needs.
+       </li>
+       <li>
+        Developed integrations with third-party APIs and payment gateways.
+       </li>
+       <li>
+        Provided technical support and training to end-users.
+       </li>
+       <li>
+        Participated in deployment and maintenance of Odoo instances on Linux servers.
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h4 class="text-xl font-semibold text-gray-800">
+       Junior Python Developer
+      </h4>
+      <p class="text-indigo-600 font-semibold">
+       SoftTech Solutions — Jan 2017 - Jun 2018
+      </p>
+      <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+       <li>
+        Assisted in backend development using Python and PostgreSQL.
+       </li>
+       <li>
+        Contributed to automation scripts and data migration tasks.
+       </li>
+       <li>
+        Collaborated with senior developers on Odoo module enhancements.
+       </li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   <!-- Contact Section -->
+   <section class="mb-20 max-w-3xl mx-auto bg-white rounded-lg shadow-md p-8" id="contact">
+    <h3 class="text-3xl font-bold text-indigo-600 mb-6 border-b-4 border-indigo-600 inline-block pb-1">
+     Contact Me
+    </h3>
+    <form action="mailto:asad.noman@example.com" class="space-y-6" enctype="text/plain" method="POST">
+     <div>
+      <label class="block text-gray-700 font-semibold mb-2" for="name">
+       Name
+      </label>
+      <input class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600" id="name" name="Name" placeholder="Your full name" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block text-gray-700 font-semibold mb-2" for="email">
+       Email
+      </label>
+      <input class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600" id="email" name="Email" placeholder="your.email@example.com" required="" type="email"/>
+     </div>
+     <div>
+      <label class="block text-gray-700 font-semibold mb-2" for="message">
+       Message
+      </label>
+      <textarea class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600" id="message" name="Message" placeholder="Write your message here..." required="" rows="5"></textarea>
+     </div>
+     <button class="bg-indigo-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-indigo-700 transition" type="submit">
+      Send Message
+     </button>
+    </form>
+    <div class="mt-8 text-center text-gray-600 space-x-6">
+     <a class="hover:text-indigo-600 transition inline-block" href="mailto:asad.noman@example.com">
+      <i class="fas fa-envelope fa-lg">
+      </i>
+      asad.noman@example.com
+     </a>
+     <a class="hover:text-indigo-600 transition inline-block" href="https://linkedin.com/in/asadnoman" target="_blank">
+      <i class="fab fa-linkedin fa-lg">
+      </i>
+      LinkedIn
+     </a>
+     <a class="hover:text-indigo-600 transition inline-block" href="https://github.com/asadnoman" target="_blank">
+      <i class="fab fa-github fa-lg">
+      </i>
+      GitHub
+     </a>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-white border-t border-gray-200 py-6 text-center text-gray-600 text-sm">
+   © 2024 Asad Noman. All rights reserved.
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
