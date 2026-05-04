@@ -4,7 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Asad Noman — Odoo ERP Developer</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Instrument+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
+
 <style>
   :root {
     --bg:       #0D0D14;
@@ -25,7 +25,7 @@
   body {
     background: var(--bg);
     color: var(--text);
-    font-family: 'Instrument Sans', sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
     overflow-x: hidden;
     cursor: none;
   }
@@ -68,7 +68,7 @@
     border-bottom: 1px solid var(--border);
   }
   .nav-logo {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
     font-weight: 800; font-size: 1.1rem;
     color: var(--text); text-decoration: none;
     letter-spacing: -0.02em;
@@ -76,7 +76,7 @@
   .nav-logo span { color: var(--accent); }
   .nav-links { display: flex; gap: 2rem; list-style: none; }
   .nav-links a {
-    font-family: 'DM Mono', monospace;
+    font-family: 'Courier New', monospace;
     font-size: 0.78rem; color: var(--muted);
     text-decoration: none; letter-spacing: 0.05em;
     transition: color 0.2s;
@@ -111,7 +111,7 @@
   .hero-content { position: relative; z-index: 1; max-width: 800px; }
   .hero-tag {
     display: inline-flex; align-items: center; gap: 0.5rem;
-    font-family: 'DM Mono', monospace; font-size: 0.75rem;
+    font-family: 'Courier New', monospace; font-size: 0.75rem;
     color: var(--accent); border: 1px solid var(--border);
     padding: 0.35rem 0.9rem; border-radius: 20px; margin-bottom: 1.8rem;
     background: rgba(155,93,229,0.07);
@@ -120,7 +120,7 @@
   @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.2; } }
 
   .hero-name {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
     font-size: clamp(3.5rem, 8vw, 6.5rem);
     font-weight: 800;
     line-height: 0.95;
@@ -136,7 +136,7 @@
   }
   .hero-ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
   .btn-primary {
-    font-family: 'Syne', sans-serif; font-weight: 600; font-size: 0.9rem;
+    font-family: 'Segoe UI', Arial, sans-serif; font-weight: 600; font-size: 0.9rem;
     background: var(--accent); color: #fff;
     padding: 0.85rem 2rem; border-radius: 6px;
     text-decoration: none; border: none; cursor: none;
@@ -145,7 +145,7 @@
   }
   .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 0 50px rgba(155,93,229,0.5); }
   .btn-outline {
-    font-family: 'Syne', sans-serif; font-weight: 600; font-size: 0.9rem;
+    font-family: 'Segoe UI', Arial, sans-serif; font-weight: 600; font-size: 0.9rem;
     background: transparent; color: var(--text);
     padding: 0.85rem 2rem; border-radius: 6px;
     text-decoration: none; border: 1px solid var(--border);
@@ -158,7 +158,7 @@
     padding-top: 2rem; border-top: 1px solid var(--border);
   }
   .stat-num {
-    font-family: 'Syne', sans-serif; font-size: 2rem; font-weight: 800;
+    font-family: 'Segoe UI', Arial, sans-serif; font-size: 2rem; font-weight: 800;
     color: var(--accent);
   }
   .stat-lbl { font-size: 0.8rem; color: var(--muted); margin-top: 0.2rem; }
@@ -166,12 +166,12 @@
   /* SECTIONS */
   section { padding: 6rem 3rem; position: relative; z-index: 1; }
   .section-label {
-    font-family: 'DM Mono', monospace; font-size: 0.72rem;
+    font-family: 'Courier New', monospace; font-size: 0.72rem;
     color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase;
     margin-bottom: 0.8rem;
   }
   .section-title {
-    font-family: 'Syne', sans-serif; font-size: clamp(2rem, 4vw, 3rem);
+    font-family: 'Segoe UI', Arial, sans-serif; font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 800; letter-spacing: -0.02em; line-height: 1.1;
     margin-bottom: 1rem;
   }
@@ -206,7 +206,7 @@
     border-radius: 50%;
     background: radial-gradient(circle at 40% 40%, rgba(155,93,229,0.4), rgba(13,13,20,0.9));
     display: flex; align-items: center; justify-content: center;
-    font-family: 'Syne', sans-serif; font-size: 0.85rem; font-weight: 700;
+    font-family: 'Segoe UI', Arial, sans-serif; font-size: 0.85rem; font-weight: 700;
     color: var(--accent); text-align: center; padding: 1.5rem;
     animation: none;
     border: 1px solid var(--border);
@@ -220,7 +220,7 @@
   .about-text p strong { color: var(--text); }
   .tech-tags { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.8rem; }
   .tag {
-    font-family: 'DM Mono', monospace; font-size: 0.72rem;
+    font-family: 'Courier New', monospace; font-size: 0.72rem;
     padding: 0.3rem 0.8rem; border-radius: 4px;
     background: rgba(155,93,229,0.1); border: 1px solid var(--border);
     color: var(--accent);
@@ -238,7 +238,7 @@
   .skill-card:hover { border-color: var(--accent); transform: translateY(-4px); }
   .skill-icon { font-size: 1.8rem; margin-bottom: 1rem; }
   .skill-card h3 {
-    font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700;
+    font-family: 'Segoe UI', Arial, sans-serif; font-size: 1rem; font-weight: 700;
     margin-bottom: 0.5rem; color: var(--text);
   }
   .skill-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
@@ -266,12 +266,12 @@
   .proj-card:hover::before { transform: scaleX(1); }
   .proj-card:hover { border-color: rgba(155,93,229,0.4); transform: translateY(-5px); }
   .proj-module {
-    font-family: 'DM Mono', monospace; font-size: 0.68rem;
+    font-family: 'Courier New', monospace; font-size: 0.68rem;
     color: var(--accent2); letter-spacing: 0.08em; text-transform: uppercase;
     margin-bottom: 0.7rem;
   }
   .proj-card h3 {
-    font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 700;
+    font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.05rem; font-weight: 700;
     margin-bottom: 0.8rem; color: var(--text); line-height: 1.3;
   }
   .proj-card ul { list-style: none; padding: 0; }
@@ -298,11 +298,11 @@
     background: var(--accent); box-shadow: 0 0 16px var(--accent);
   }
   .timeline-date {
-    font-family: 'DM Mono', monospace; font-size: 0.72rem;
+    font-family: 'Courier New', monospace; font-size: 0.72rem;
     color: var(--accent); margin-bottom: 0.5rem;
   }
   .timeline-item h3 {
-    font-family: 'Syne', sans-serif; font-size: 1.2rem; font-weight: 700;
+    font-family: 'Segoe UI', Arial, sans-serif; font-size: 1.2rem; font-weight: 700;
     margin-bottom: 0.2rem;
   }
   .timeline-company { color: var(--muted); font-size: 0.88rem; margin-bottom: 1rem; }
@@ -317,7 +317,7 @@
   #contact { background: var(--bg2); text-align: center; }
   .contact-inner { max-width: 600px; margin: 0 auto; }
   .contact-email {
-    font-family: 'Syne', sans-serif; font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-family: 'Segoe UI', Arial, sans-serif; font-size: clamp(1.5rem, 4vw, 2.5rem);
     font-weight: 800; color: var(--accent); text-decoration: none;
     display: block; margin: 2rem 0;
     transition: color 0.2s;
@@ -325,7 +325,7 @@
   .contact-email:hover { color: var(--accent2); }
   .contact-links { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem; }
   .contact-link {
-    font-family: 'DM Mono', monospace; font-size: 0.8rem;
+    font-family: 'Courier New', monospace; font-size: 0.8rem;
     color: var(--muted); text-decoration: none; border: 1px solid var(--border);
     padding: 0.6rem 1.4rem; border-radius: 6px;
     transition: color 0.2s, border-color 0.2s;
@@ -336,7 +336,7 @@
   footer {
     padding: 2rem 3rem; text-align: center;
     border-top: 1px solid var(--border);
-    font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--muted);
+    font-family: 'Courier New', monospace; font-size: 0.72rem; color: var(--muted);
   }
 
   /* SCROLL REVEAL */
