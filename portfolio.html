@@ -1,397 +1,741 @@
+<!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <title>
-   Asad Noman - Odoo Developer Portfolio
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <style>
-   body {
-      font-family: 'Inter', sans-serif;
-    }
-  </style>
- </head>
- <body class="bg-gray-50 text-gray-800">
-  <!-- Header / Navbar -->
-  <header class="bg-white shadow-md fixed w-full z-30">
-   <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-    <a class="text-2xl font-bold text-indigo-600" href="#">
-     Asad Noman
-    </a>
-    <nav class="hidden md:flex space-x-8 font-semibold text-gray-700">
-     <a class="hover:text-indigo-600 transition" href="#about">
-      About
-     </a>
-     <a class="hover:text-indigo-600 transition" href="#skills">
-      Skills
-     </a>
-     <a class="hover:text-indigo-600 transition" href="#projects">
-      Projects
-     </a>
-     <a class="hover:text-indigo-600 transition" href="#experience">
-      Experience
-     </a>
-     <a class="hover:text-indigo-600 transition" href="#contact">
-      Contact
-     </a>
-    </nav>
-    <button class="md:hidden text-gray-700 focus:outline-none" id="menu-btn">
-     <i class="fas fa-bars fa-lg">
-     </i>
-    </button>
-   </div>
-   <nav class="hidden md:hidden bg-white shadow-md" id="mobile-menu">
-    <a class="block px-6 py-3 border-b border-gray-200 hover:bg-indigo-50 transition" href="#about">
-     About
-    </a>
-    <a class="block px-6 py-3 border-b border-gray-200 hover:bg-indigo-50 transition" href="#skills">
-     Skills
-    </a>
-    <a class="block px-6 py-3 border-b border-gray-200 hover:bg-indigo-50 transition" href="#projects">
-     Projects
-    </a>
-    <a class="block px-6 py-3 border-b border-gray-200 hover:bg-indigo-50 transition" href="#experience">
-     Experience
-    </a>
-    <a class="block px-6 py-3 hover:bg-indigo-50 transition" href="#contact">
-     Contact
-    </a>
-   </nav>
-  </header>
-  <main class="pt-24 max-w-7xl mx-auto px-6">
-   <!-- Hero Section -->
-   <section class="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-16 mb-20">
-    <div class="flex-shrink-0 w-48 h-48 rounded-full overflow-hidden border-4 border-indigo-600 shadow-lg">
-     <img alt="Portrait of Asad Noman, a confident young man with short black hair, wearing a smart casual shirt, smiling gently" class="w-full h-full object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/add54a6c-7305-4cdc-5300-49448931979a.jpg" width="300"/>
-    </div>
-    <div class="max-w-xl">
-     <h1 class="text-4xl font-extrabold text-indigo-600 mb-4">
-      Asad Noman
-     </h1>
-     <h2 class="text-xl font-semibold text-gray-700 mb-4">
-      Odoo Developer | ERP Specialist | Python &amp; JavaScript Enthusiast
-     </h2>
-     <p class="text-gray-600 leading-relaxed mb-6">
-      Experienced Odoo developer with a passion for building scalable ERP solutions. Skilled in Python, JavaScript, and PostgreSQL, with a strong background in customizing and integrating Odoo modules to optimize business processes.
-     </p>
-     <a class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-indigo-700 transition" href="#contact">
-      Contact Me
-     </a>
-    </div>
-   </section>
-   <!-- About Section -->
-   <section class="mb-20" id="about">
-    <h3 class="text-3xl font-bold text-indigo-600 mb-6 border-b-4 border-indigo-600 inline-block pb-1">
-     About Me
-    </h3>
-    <p class="text-gray-700 max-w-4xl leading-relaxed">
-     Hello! I'm Asad Noman, a dedicated Odoo developer with over 5 years of experience in designing, developing, and deploying Odoo ERP solutions for diverse industries. I specialize in customizing Odoo modules, developing new features, and integrating third-party services to streamline business operations. My expertise lies in Python backend development, JavaScript frontend enhancements, and database management with PostgreSQL. I am passionate about delivering high-quality, maintainable code and collaborating closely with clients to meet their unique business needs.
-    </p>
-   </section>
-   <!-- Skills Section -->
-   <section class="mb-20" id="skills">
-    <h3 class="text-3xl font-bold text-indigo-600 mb-6 border-b-4 border-indigo-600 inline-block pb-1">
-     Skills
-    </h3>
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-4xl">
-     <div class="flex flex-col items-center">
-      <img alt="Python programming language logo, blue and yellow snake icon" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/9e385831-4295-4080-7e1c-b90d264c844b.jpg" width="64"/>
-      <span class="font-semibold text-gray-700">
-       Python
-      </span>
-     </div>
-     <div class="flex flex-col items-center">
-      <img alt="JavaScript programming language logo, yellow square with black JS letters" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/7356bec2-bc40-4021-84a5-83e7db3cd1a7.jpg" width="64"/>
-      <span class="font-semibold text-gray-700">
-       JavaScript
-      </span>
-     </div>
-     <div class="flex flex-col items-center">
-      <img alt="Odoo ERP software logo, purple circle with white O letter" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/9b66d6d4-1489-4509-7477-9b4b9612bf35.jpg" width="64"/>
-      <span class="font-semibold text-gray-700">
-       Odoo ERP
-      </span>
-     </div>
-     <div class="flex flex-col items-center">
-      <img alt="PostgreSQL database logo, blue elephant head icon" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/75a393c0-a540-4779-b0a1-5b0a38e2d5cb.jpg" width="64"/>
-      <span class="font-semibold text-gray-700">
-       PostgreSQL
-      </span>
-     </div>
-     <div class="flex flex-col items-center">
-      <img alt="XML file format icon, blue document with angle brackets" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/96369bd7-413a-4d9f-3878-a8e9dfbfa8b8.jpg" width="64"/>
-      <span class="font-semibold text-gray-700">
-       XML
-      </span>
-     </div>
-     <div class="flex flex-col items-center">
-      <img alt="Git version control system logo, orange diamond shape with white branching lines" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/6358c47e-489c-4f89-c497-80ce5ec3f2c1.jpg" width="64"/>
-      <span class="font-semibold text-gray-700">
-       Git
-      </span>
-     </div>
-     <div class="flex flex-col items-center">
-      <img alt="Linux operating system logo, black penguin mascot" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/ff64a330-8eb1-47fd-6d93-9d4f0828f887.jpg" width="64"/>
-      <span class="font-semibold text-gray-700">
-       Linux
-      </span>
-     </div>
-     <div class="flex flex-col items-center">
-      <img alt="REST API icon, network nodes connected by lines" class="mb-2" height="64" src="https://storage.googleapis.com/a1aa/image/bf728721-48e8-4475-185b-883a32ed3d75.jpg" width="64"/>
-      <span class="font-semibold text-gray-700">
-       REST API
-      </span>
-     </div>
-    </div>
-   </section>
-   <!-- Projects Section -->
-   <section class="mb-20" id="projects">
-    <h3 class="text-3xl font-bold text-indigo-600 mb-6 border-b-4 border-indigo-600 inline-block pb-1">
-     Projects
-    </h3>
-    <div class="grid gap-10 md:grid-cols-2 max-w-6xl">
-     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
-      <img alt="Screenshot of a custom Odoo Inventory Management System dashboard showing stock levels and product categories" class="w-full h-48 object-cover" height="350" src="https://storage.googleapis.com/a1aa/image/53e8ab70-bfeb-4555-3bc7-3d5f17ea9251.jpg" width="600"/>
-      <div class="p-6">
-       <h4 class="text-xl font-semibold text-indigo-600 mb-2">
-        Custom Odoo Inventory Management System
-       </h4>
-       <p class="text-gray-700 mb-4">
-        Developed a tailored inventory management module for a retail client, enabling real-time stock tracking, automated reorder alerts, and barcode scanning integration.
-       </p>
-       <ul class="text-sm text-gray-600 mb-4 list-disc list-inside">
-        <li>
-         Customized Odoo v14 modules using Python and XML
-        </li>
-        <li>
-         Integrated with Zebra barcode scanners via REST API
-        </li>
-        <li>
-         Implemented automated email notifications for low stock
-        </li>
-       </ul>
-       <a class="inline-flex items-center text-indigo-600 hover:underline font-semibold" href="https://github.com/asadnoman/odoo-inventory" target="_blank">
-        View Code
-        <i class="fas fa-external-link-alt ml-2">
-        </i>
-       </a>
-      </div>
-     </article>
-     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
-      <img alt="Screenshot of a customized Odoo CRM interface showing sales pipeline stages and customer details" class="w-full h-48 object-cover" height="350" src="https://storage.googleapis.com/a1aa/image/8dca61ba-6d5e-47f9-cb35-c1cbb4c076f3.jpg" width="600"/>
-      <div class="p-6">
-       <h4 class="text-xl font-semibold text-indigo-600 mb-2">
-        Odoo CRM Customization for Sales Automation
-       </h4>
-       <p class="text-gray-700 mb-4">
-        Enhanced the Odoo CRM module to automate lead scoring, email campaigns, and sales pipeline visualization for a B2B software company.
-       </p>
-       <ul class="text-sm text-gray-600 mb-4 list-disc list-inside">
-        <li>
-         Developed custom Python models and views
-        </li>
-        <li>
-         Integrated with Mailchimp API for email marketing
-        </li>
-        <li>
-         Created dynamic Kanban views for sales stages
-        </li>
-       </ul>
-       <a class="inline-flex items-center text-indigo-600 hover:underline font-semibold" href="https://github.com/asadnoman/odoo-crm-custom" target="_blank">
-        View Code
-        <i class="fas fa-external-link-alt ml-2">
-        </i>
-       </a>
-      </div>
-     </article>
-     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
-      <img alt="Screenshot of Odoo Accounting module showing invoices and financial reports" class="w-full h-48 object-cover" height="350" src="https://storage.googleapis.com/a1aa/image/b36b391c-0930-4337-2d75-7731bd790e1a.jpg" width="600"/>
-      <div class="p-6">
-       <h4 class="text-xl font-semibold text-indigo-600 mb-2">
-        Accounting Module Integration &amp; Automation
-       </h4>
-       <p class="text-gray-700 mb-4">
-        Integrated third-party payment gateways and automated invoice generation for a manufacturing client using Odoo Accounting.
-       </p>
-       <ul class="text-sm text-gray-600 mb-4 list-disc list-inside">
-        <li>
-         Implemented payment gateway API integration
-        </li>
-        <li>
-         Automated invoice creation and emailing
-        </li>
-        <li>
-         Customized reports for financial analysis
-        </li>
-       </ul>
-       <a class="inline-flex items-center text-indigo-600 hover:underline font-semibold" href="https://github.com/asadnoman/odoo-accounting-integration" target="_blank">
-        View Code
-        <i class="fas fa-external-link-alt ml-2">
-        </i>
-       </a>
-      </div>
-     </article>
-     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
-      <img alt="Screenshot of Odoo HR Management System showing employee profiles and attendance records" class="w-full h-48 object-cover" height="350" src="https://storage.googleapis.com/a1aa/image/f5efba8e-9362-4d99-4151-c94bc0b80727.jpg" width="600"/>
-      <div class="p-6">
-       <h4 class="text-xl font-semibold text-indigo-600 mb-2">
-        Odoo HR Management System Customization
-       </h4>
-       <p class="text-gray-700 mb-4">
-        Customized the HR module to include attendance tracking, leave management, and performance appraisal workflows for a mid-sized company.
-       </p>
-       <ul class="text-sm text-gray-600 mb-4 list-disc list-inside">
-        <li>
-         Developed custom attendance and leave models
-        </li>
-        <li>
-         Integrated biometric attendance devices
-        </li>
-        <li>
-         Created appraisal workflow automation
-        </li>
-       </ul>
-       <a class="inline-flex items-center text-indigo-600 hover:underline font-semibold" href="https://github.com/asadnoman/odoo-hr-custom" target="_blank">
-        View Code
-        <i class="fas fa-external-link-alt ml-2">
-        </i>
-       </a>
-      </div>
-     </article>
-    </div>
-   </section>
-   <!-- Experience Section -->
-   <section class="mb-20 max-w-4xl mx-auto" id="experience">
-    <h3 class="text-3xl font-bold text-indigo-600 mb-6 border-b-4 border-indigo-600 inline-block pb-1">
-     Experience
-    </h3>
-    <div class="space-y-8">
-     <div>
-      <h4 class="text-xl font-semibold text-gray-800">
-       Senior Odoo Developer
-      </h4>
-      <p class="text-indigo-600 font-semibold">
-       Tech Solutions Ltd. — Jan 2021 - Present
-      </p>
-      <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
-       <li>
-        Lead development of custom Odoo modules for clients in retail, manufacturing, and services sectors.
-       </li>
-       <li>
-        Architected scalable ERP solutions integrating inventory, sales, accounting, and HR modules.
-       </li>
-       <li>
-        Mentored junior developers and conducted code reviews to ensure best practices.
-       </li>
-       <li>
-        Collaborated with clients to gather requirements and deliver tailored solutions.
-       </li>
-      </ul>
-     </div>
-     <div>
-      <h4 class="text-xl font-semibold text-gray-800">
-       Odoo Developer
-      </h4>
-      <p class="text-indigo-600 font-semibold">
-       ERP Innovators — Jul 2018 - Dec 2020
-      </p>
-      <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
-       <li>
-        Customized Odoo v12 and v13 modules to meet client-specific business needs.
-       </li>
-       <li>
-        Developed integrations with third-party APIs and payment gateways.
-       </li>
-       <li>
-        Provided technical support and training to end-users.
-       </li>
-       <li>
-        Participated in deployment and maintenance of Odoo instances on Linux servers.
-       </li>
-      </ul>
-     </div>
-     <div>
-      <h4 class="text-xl font-semibold text-gray-800">
-       Junior Python Developer
-      </h4>
-      <p class="text-indigo-600 font-semibold">
-       SoftTech Solutions — Jan 2017 - Jun 2018
-      </p>
-      <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
-       <li>
-        Assisted in backend development using Python and PostgreSQL.
-       </li>
-       <li>
-        Contributed to automation scripts and data migration tasks.
-       </li>
-       <li>
-        Collaborated with senior developers on Odoo module enhancements.
-       </li>
-      </ul>
-     </div>
-    </div>
-   </section>
-   <!-- Contact Section -->
-   <section class="mb-20 max-w-3xl mx-auto bg-white rounded-lg shadow-md p-8" id="contact">
-    <h3 class="text-3xl font-bold text-indigo-600 mb-6 border-b-4 border-indigo-600 inline-block pb-1">
-     Contact Me
-    </h3>
-    <form action="mailto:asad.noman@example.com" class="space-y-6" enctype="text/plain" method="POST">
-     <div>
-      <label class="block text-gray-700 font-semibold mb-2" for="name">
-       Name
-      </label>
-      <input class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600" id="name" name="Name" placeholder="Your full name" required="" type="text"/>
-     </div>
-     <div>
-      <label class="block text-gray-700 font-semibold mb-2" for="email">
-       Email
-      </label>
-      <input class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600" id="email" name="Email" placeholder="your.email@example.com" required="" type="email"/>
-     </div>
-     <div>
-      <label class="block text-gray-700 font-semibold mb-2" for="message">
-       Message
-      </label>
-      <textarea class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600" id="message" name="Message" placeholder="Write your message here..." required="" rows="5"></textarea>
-     </div>
-     <button class="bg-indigo-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-indigo-700 transition" type="submit">
-      Send Message
-     </button>
-    </form>
-    <div class="mt-8 text-center text-gray-600 space-x-6">
-     <a class="hover:text-indigo-600 transition inline-block" href="mailto:asad.noman@example.com">
-      <i class="fas fa-envelope fa-lg">
-      </i>
-      asad.noman@example.com
-     </a>
-     <a class="hover:text-indigo-600 transition inline-block" href="https://linkedin.com/in/asadnoman" target="_blank">
-      <i class="fab fa-linkedin fa-lg">
-      </i>
-      LinkedIn
-     </a>
-     <a class="hover:text-indigo-600 transition inline-block" href="https://github.com/asadnoman" target="_blank">
-      <i class="fab fa-github fa-lg">
-      </i>
-      GitHub
-     </a>
-    </div>
-   </section>
-  </main>
-  <footer class="bg-white border-t border-gray-200 py-6 text-center text-gray-600 text-sm">
-   © 2024 Asad Noman. All rights reserved.
-  </footer>
-  <script>
-   const menuBtn = document.getElementById('menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Asad Noman — Odoo ERP Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Instrument+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg:       #0D0D14;
+    --bg2:      #13131F;
+    --bg3:      #1A1A2C;
+    --accent:   #9B5DE5;
+    --accent2:  #F15BB5;
+    --gold:     #FEE440;
+    --text:     #E8E8F0;
+    --muted:    #7A7A9A;
+    --border:   rgba(155,93,229,0.18);
+    --card:     rgba(26,26,44,0.85);
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    menuBtn.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Instrument Sans', sans-serif;
+    overflow-x: hidden;
+    cursor: none;
+  }
+
+  /* Custom cursor */
+  .cursor {
+    width: 12px; height: 12px;
+    background: var(--accent);
+    border-radius: 50%;
+    position: fixed; top: 0; left: 0;
+    pointer-events: none; z-index: 9999;
+    transition: transform 0.15s ease;
+    mix-blend-mode: screen;
+  }
+  .cursor-ring {
+    width: 36px; height: 36px;
+    border: 1.5px solid var(--accent);
+    border-radius: 50%;
+    position: fixed; top: 0; left: 0;
+    pointer-events: none; z-index: 9998;
+    transition: transform 0.35s ease, opacity 0.3s;
+    opacity: 0.5;
+  }
+
+  /* Noise overlay */
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none; z-index: 0; opacity: 0.35;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1.2rem 3rem;
+    background: rgba(13,13,20,0.75);
+    backdrop-filter: blur(18px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-logo {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800; font-size: 1.1rem;
+    color: var(--text); text-decoration: none;
+    letter-spacing: -0.02em;
+  }
+  .nav-logo span { color: var(--accent); }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.78rem; color: var(--muted);
+    text-decoration: none; letter-spacing: 0.05em;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--accent); }
+
+  /* HERO */
+  #hero {
+    min-height: 100vh;
+    display: flex; align-items: center;
+    padding: 8rem 3rem 4rem;
+    position: relative; overflow: hidden;
+  }
+  .hero-grid-bg {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(155,93,229,0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(155,93,229,0.05) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+  }
+  .hero-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    pointer-events: none;
+  }
+  .orb1 { width: 500px; height: 500px; background: rgba(155,93,229,0.18); top: -100px; right: -100px; animation: drift 8s ease-in-out infinite alternate; }
+  .orb2 { width: 350px; height: 350px; background: rgba(241,91,181,0.12); bottom: 0; left: -80px; animation: drift 11s ease-in-out infinite alternate-reverse; }
+  @keyframes drift { from { transform: translate(0,0) scale(1); } to { transform: translate(40px, 30px) scale(1.1); } }
+
+  .hero-content { position: relative; z-index: 1; max-width: 800px; }
+  .hero-tag {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    font-family: 'DM Mono', monospace; font-size: 0.75rem;
+    color: var(--accent); border: 1px solid var(--border);
+    padding: 0.35rem 0.9rem; border-radius: 20px; margin-bottom: 1.8rem;
+    background: rgba(155,93,229,0.07);
+  }
+  .hero-tag::before { content: ''; width: 6px; height: 6px; background: var(--accent); border-radius: 50%; animation: blink 1.5s infinite; }
+  @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.2; } }
+
+  .hero-name {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(3.5rem, 8vw, 6.5rem);
+    font-weight: 800;
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    color: var(--text);
+    margin-bottom: 0.4rem;
+  }
+  .hero-name .line2 { color: var(--accent); display: block; }
+  .hero-sub {
+    font-size: 1.1rem; color: var(--muted);
+    max-width: 520px; margin: 1.4rem 0 2.5rem;
+    line-height: 1.7;
+  }
+  .hero-ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .btn-primary {
+    font-family: 'Syne', sans-serif; font-weight: 600; font-size: 0.9rem;
+    background: var(--accent); color: #fff;
+    padding: 0.85rem 2rem; border-radius: 6px;
+    text-decoration: none; border: none; cursor: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 0 30px rgba(155,93,229,0.35);
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 0 50px rgba(155,93,229,0.5); }
+  .btn-outline {
+    font-family: 'Syne', sans-serif; font-weight: 600; font-size: 0.9rem;
+    background: transparent; color: var(--text);
+    padding: 0.85rem 2rem; border-radius: 6px;
+    text-decoration: none; border: 1px solid var(--border);
+    cursor: none; transition: border-color 0.2s, color 0.2s;
+  }
+  .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+
+  .hero-stats {
+    display: flex; gap: 3rem; margin-top: 4rem;
+    padding-top: 2rem; border-top: 1px solid var(--border);
+  }
+  .stat-num {
+    font-family: 'Syne', sans-serif; font-size: 2rem; font-weight: 800;
+    color: var(--accent);
+  }
+  .stat-lbl { font-size: 0.8rem; color: var(--muted); margin-top: 0.2rem; }
+
+  /* SECTIONS */
+  section { padding: 6rem 3rem; position: relative; z-index: 1; }
+  .section-label {
+    font-family: 'DM Mono', monospace; font-size: 0.72rem;
+    color: var(--accent); letter-spacing: 0.12em; text-transform: uppercase;
+    margin-bottom: 0.8rem;
+  }
+  .section-title {
+    font-family: 'Syne', sans-serif; font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800; letter-spacing: -0.02em; line-height: 1.1;
+    margin-bottom: 1rem;
+  }
+  .section-title span { color: var(--accent); }
+  .section-desc { color: var(--muted); font-size: 1rem; line-height: 1.7; max-width: 560px; margin-bottom: 3.5rem; }
+  .max-w { max-width: 1100px; margin: 0 auto; }
+
+  /* ABOUT */
+  #about { background: var(--bg2); }
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+  .about-visual {
+    position: relative; aspect-ratio: 1;
+    max-width: 380px;
+  }
+  .about-ring {
+    width: 100%; height: 100%;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    animation: spin 20s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .about-ring-inner {
+    width: 80%; height: 80%;
+    border-radius: 50%;
+    border: 1px dashed rgba(155,93,229,0.3);
+    display: flex; align-items: center; justify-content: center;
+    animation: spin 14s linear infinite reverse;
+  }
+  .about-core {
+    width: 65%; height: 65%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 40% 40%, rgba(155,93,229,0.4), rgba(13,13,20,0.9));
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Syne', sans-serif; font-size: 0.85rem; font-weight: 700;
+    color: var(--accent); text-align: center; padding: 1.5rem;
+    animation: none;
+    border: 1px solid var(--border);
+  }
+  .about-dot {
+    position: absolute; width: 10px; height: 10px;
+    background: var(--accent2); border-radius: 50%;
+    box-shadow: 0 0 12px var(--accent2);
+  }
+  .about-text p { color: var(--muted); line-height: 1.8; margin-bottom: 1.2rem; }
+  .about-text p strong { color: var(--text); }
+  .tech-tags { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.8rem; }
+  .tag {
+    font-family: 'DM Mono', monospace; font-size: 0.72rem;
+    padding: 0.3rem 0.8rem; border-radius: 4px;
+    background: rgba(155,93,229,0.1); border: 1px solid var(--border);
+    color: var(--accent);
+  }
+
+  /* SKILLS */
+  #skills { background: var(--bg); }
+  .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+  .skill-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 1.8rem;
+    transition: border-color 0.3s, transform 0.3s;
+    backdrop-filter: blur(10px);
+  }
+  .skill-card:hover { border-color: var(--accent); transform: translateY(-4px); }
+  .skill-icon { font-size: 1.8rem; margin-bottom: 1rem; }
+  .skill-card h3 {
+    font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700;
+    margin-bottom: 0.5rem; color: var(--text);
+  }
+  .skill-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
+  .skill-bar-wrap { margin-top: 1rem; }
+  .skill-bar-lbl { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); margin-bottom: 0.4rem; }
+  .skill-bar { height: 4px; background: rgba(255,255,255,0.06); border-radius: 4px; overflow: hidden; }
+  .skill-bar-fill { height: 100%; border-radius: 4px; background: linear-gradient(90deg, var(--accent), var(--accent2)); transition: width 1s ease; width: 0; }
+
+  /* PROJECTS */
+  #projects { background: var(--bg2); }
+  .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.8rem; }
+  .proj-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 14px; padding: 2rem;
+    transition: border-color 0.3s, transform 0.3s;
+    position: relative; overflow: hidden;
+  }
+  .proj-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    transform: scaleX(0); transform-origin: left;
+    transition: transform 0.4s ease;
+  }
+  .proj-card:hover::before { transform: scaleX(1); }
+  .proj-card:hover { border-color: rgba(155,93,229,0.4); transform: translateY(-5px); }
+  .proj-module {
+    font-family: 'DM Mono', monospace; font-size: 0.68rem;
+    color: var(--accent2); letter-spacing: 0.08em; text-transform: uppercase;
+    margin-bottom: 0.7rem;
+  }
+  .proj-card h3 {
+    font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 700;
+    margin-bottom: 0.8rem; color: var(--text); line-height: 1.3;
+  }
+  .proj-card ul { list-style: none; padding: 0; }
+  .proj-card ul li {
+    font-size: 0.82rem; color: var(--muted); padding: 0.3rem 0;
+    padding-left: 1.1rem; position: relative; line-height: 1.5;
+  }
+  .proj-card ul li::before {
+    content: '→'; position: absolute; left: 0;
+    color: var(--accent); font-size: 0.75rem;
+  }
+
+  /* EXPERIENCE */
+  #experience { background: var(--bg); }
+  .timeline { position: relative; padding-left: 2rem; }
+  .timeline::before {
+    content: ''; position: absolute; left: 0; top: 0; bottom: 0;
+    width: 1px; background: linear-gradient(180deg, var(--accent), transparent);
+  }
+  .timeline-item { position: relative; margin-bottom: 3rem; padding-left: 2rem; }
+  .timeline-dot {
+    position: absolute; left: -2.35rem; top: 0.3rem;
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--accent); box-shadow: 0 0 16px var(--accent);
+  }
+  .timeline-date {
+    font-family: 'DM Mono', monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.5rem;
+  }
+  .timeline-item h3 {
+    font-family: 'Syne', sans-serif; font-size: 1.2rem; font-weight: 700;
+    margin-bottom: 0.2rem;
+  }
+  .timeline-company { color: var(--muted); font-size: 0.88rem; margin-bottom: 1rem; }
+  .timeline-item ul { list-style: none; }
+  .timeline-item ul li {
+    font-size: 0.88rem; color: var(--muted);
+    padding: 0.3rem 0 0.3rem 1.2rem; position: relative; line-height: 1.6;
+  }
+  .timeline-item ul li::before { content: '▸'; position: absolute; left: 0; color: var(--accent); }
+
+  /* CONTACT */
+  #contact { background: var(--bg2); text-align: center; }
+  .contact-inner { max-width: 600px; margin: 0 auto; }
+  .contact-email {
+    font-family: 'Syne', sans-serif; font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 800; color: var(--accent); text-decoration: none;
+    display: block; margin: 2rem 0;
+    transition: color 0.2s;
+  }
+  .contact-email:hover { color: var(--accent2); }
+  .contact-links { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem; }
+  .contact-link {
+    font-family: 'DM Mono', monospace; font-size: 0.8rem;
+    color: var(--muted); text-decoration: none; border: 1px solid var(--border);
+    padding: 0.6rem 1.4rem; border-radius: 6px;
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .contact-link:hover { color: var(--accent); border-color: var(--accent); }
+
+  /* FOOTER */
+  footer {
+    padding: 2rem 3rem; text-align: center;
+    border-top: 1px solid var(--border);
+    font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--muted);
+  }
+
+  /* SCROLL REVEAL */
+  .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.visible { opacity: 1; transform: none; }
+
+  @media (max-width: 768px) {
+    nav { padding: 1rem 1.5rem; }
+    section { padding: 4rem 1.5rem; }
+    #hero { padding: 7rem 1.5rem 3rem; }
+    .about-grid { grid-template-columns: 1fr; }
+    .about-visual { display: none; }
+    .hero-stats { gap: 2rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">AN<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">about</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#experience">experience</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-orb orb1"></div>
+  <div class="hero-orb orb2"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Available for new opportunities</div>
+    <h1 class="hero-name">
+      Asad<br>
+      <span class="line2">Noman</span>
+    </h1>
+    <p class="hero-sub">
+      Odoo ERP Developer specializing in custom add-ons, automated workflows, and business reports across HR, Payroll, Accounting, Inventory & Events.
+    </p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-outline">Get In Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">16+</div>
+        <div class="stat-lbl">Odoo Projects</div>
+      </div>
+      <div>
+        <div class="stat-num">5</div>
+        <div class="stat-lbl">Odoo Versions</div>
+      </div>
+      <div>
+        <div class="stat-num">1+</div>
+        <div class="stat-lbl">Years Experience</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="max-w">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <div class="section-label">// about me</div>
+        <h2 class="section-title">Building ERP solutions <span>that work</span></h2>
+        <p>I'm an <strong>Odoo ERP Developer</strong> based in Lahore, Pakistan. Currently working at <strong>Global XS Technology Solutions</strong>, I build custom modules and automate business workflows that actually solve real problems.</p>
+        <p>My focus is on writing <strong>clean, efficient Python code</strong> backed by solid Odoo architecture — whether it's a complex HR policy system, an automated late-fee engine, or a fully customized payslip report.</p>
+        <p>I work across <strong>Odoo 15, 16, 17, 18, and 19</strong>, both Community and Enterprise editions.</p>
+        <div class="tech-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Odoo ORM</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">QWeb</span>
+          <span class="tag">XML</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">WordPress</span>
+        </div>
+      </div>
+      <div class="about-visual reveal">
+        <div class="about-ring">
+          <div class="about-ring-inner">
+            <div class="about-core">Odoo<br>ERP<br>Developer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="max-w">
+    <div class="section-label reveal">// skills</div>
+    <h2 class="section-title reveal">Technical <span>Expertise</span></h2>
+    <p class="section-desc reveal">Full-stack Odoo development across backend logic, report design, and workflow automation.</p>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">⚙️</div>
+        <h3>Odoo Module Development</h3>
+        <p>Custom add-ons from scratch — models, views, controllers, wizards, and security rules.</p>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-lbl"><span>Proficiency</span><span>90%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-w="90"></div></div>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🐍</div>
+        <h3>Python & Odoo ORM</h3>
+        <p>Business logic, computed fields, constraints, onchange methods, and ORM queries.</p>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-lbl"><span>Proficiency</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-w="85"></div></div>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">📄</div>
+        <h3>QWeb Report Design</h3>
+        <p>Custom PDF reports — payslips, invoices, result cards, admission forms with professional layouts.</p>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-lbl"><span>Proficiency</span><span>88%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-w="88"></div></div>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🗄️</div>
+        <h3>PostgreSQL</h3>
+        <p>Database queries, ORM relationships, performance optimization, and raw SQL when needed.</p>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-lbl"><span>Proficiency</span><span>75%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-w="75"></div></div>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🤖</div>
+        <h3>Automation & Cron Jobs</h3>
+        <p>Scheduled actions, server actions, and automated workflows that run without human intervention.</p>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-lbl"><span>Proficiency</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-w="85"></div></div>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon">🔗</div>
+        <h3>Multi-Module Integration</h3>
+        <p>Connecting HR, Payroll, Accounting, Inventory, and Events modules with custom business logic.</p>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-lbl"><span>Proficiency</span><span>82%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-w="82"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="max-w">
+    <div class="section-label reveal">// projects</div>
+    <h2 class="section-title reveal">Odoo <span>Projects</span></h2>
+    <p class="section-desc reveal">Real enterprise solutions built across multiple Odoo modules and versions.</p>
+    <div class="projects-grid">
+
+      <div class="proj-card reveal">
+        <div class="proj-module">HR Module</div>
+        <h3>Loan Management System</h3>
+        <ul>
+          <li>Eligibility: 2+ years service, permanent staff only</li>
+          <li>Loan restriction: once every 5 years</li>
+          <li>Auto 12-month installment plan</li>
+          <li>CEO re-approval workflow + skip installment</li>
+        </ul>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-module">Payroll Module</div>
+        <h3>Salary Advance System</h3>
+        <ul>
+          <li>Request & approval workflow</li>
+          <li>Auto deduction from payslip each month</li>
+          <li>Remaining balance tracking</li>
+          <li>Flexible installment skip option</li>
+        </ul>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-module">Accounting Module</div>
+        <h3>Late Fee Automation</h3>
+        <ul>
+          <li>Daily 200 PKR penalty after due date</li>
+          <li>Auto-update: Amount Due + Invoice Total</li>
+          <li>Reflects on printed invoice automatically</li>
+          <li>Fully hands-free — zero manual steps</li>
+        </ul>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-module">QWeb Reports</div>
+        <h3>Student Result Card System</h3>
+        <ul>
+          <li>Dynamic PDF for single & multiple students</li>
+          <li>Subject-wise marks, totals, and grades</li>
+          <li>Clean professional school-style layout</li>
+        </ul>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-module">Accounting / CMS</div>
+        <h3>Bank Payment Reconciliation</h3>
+        <ul>
+          <li>CSV import for bank payment matching</li>
+          <li>Auto invoice validation (mark as paid)</li>
+          <li>Triggers: student profile + challan generation</li>
+        </ul>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-module">HR Module</div>
+        <h3>Death Grant Management</h3>
+        <ul>
+          <li>Policy-based grant calculation</li>
+          <li>Eligibility validation rules</li>
+          <li>Integrated with Accounting payments</li>
+          <li>Automated payment creation on approval</li>
+        </ul>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-module">HR & Payroll</div>
+        <h3>Umrah Package System</h3>
+        <ul>
+          <li>Monthly 3% salary deduction</li>
+          <li>Balance & expense tracking</li>
+          <li>Eligibility + re-enrollment prevention</li>
+          <li>Full payslip integration</li>
+        </ul>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-module">Odoo 18 Reports</div>
+        <h3>Arabic Invoice Report</h3>
+        <ul>
+          <li>Custom invoice — no header/QR</li>
+          <li>Arabic-style layout design</li>
+          <li>Separate addon implementation</li>
+        </ul>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-module">Inventory Module</div>
+        <h3>Butcher Production Module</h3>
+        <ul>
+          <li>Custom Unbuild Order feature</li>
+          <li>Filter: butcher products only</li>
+          <li>Auto BOM population</li>
+          <li>Editable quantity handling</li>
+        </ul>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-module">Inventory Module</div>
+        <h3>Assign Factor System</h3>
+        <ul>
+          <li>Compare current vs new product factor</li>
+          <li>Apply bulk updates via action button</li>
+          <li>Streamlined product pricing logic</li>
+        </ul>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-module">Events Module</div>
+        <h3>Event Management Customization</h3>
+        <ul>
+          <li>Custom event menu section model</li>
+          <li>Dynamic per-event menu structuring</li>
+          <li>Enhanced payment handling & UI</li>
+          <li>Automated event workflow</li>
+        </ul>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-module">CMS / Notifications</div>
+        <h3>CMS Notification System</h3>
+        <ul>
+          <li>Automated notifications via cron jobs</li>
+          <li>Target-based student messaging</li>
+          <li>Event & fee-based triggers</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="max-w">
+    <div class="section-label reveal">// experience</div>
+    <h2 class="section-title reveal">Work <span>History</span></h2>
+    <p class="section-desc reveal">From customer-facing roles that built communication skills, to enterprise ERP development.</p>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">March 2025 — Present</div>
+        <h3>Odoo ERP Developer</h3>
+        <div class="timeline-company">Global XS Technology Solutions · Bahria Town, Lahore</div>
+        <ul>
+          <li>Develop and customize Odoo add-ons for client-specific business needs</li>
+          <li>Design financial, sales, inventory, and HR reports using QWeb</li>
+          <li>Build automation with scheduled cron jobs and server actions</li>
+          <li>Handle bug fixing and troubleshooting across Odoo modules</li>
+          <li>Collaborate with teams to deliver complete ERP solutions</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot" style="background:var(--accent2);box-shadow:0 0 16px var(--accent2)"></div>
+        <div class="timeline-date">January 2023 — February 2025</div>
+        <h3>Crew Member & Team Lead</h3>
+        <div class="timeline-company">Johnny and Jugnu · Lahore</div>
+        <ul>
+          <li>Trained and onboarded new team members</li>
+          <li>Handled cash register with full accuracy</li>
+          <li>Built teamwork, leadership, and problem-solving skills</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="section-label reveal">// contact</div>
+    <h2 class="section-title reveal">Let's <span>Work Together</span></h2>
+    <p style="color:var(--muted);line-height:1.7;" class="reveal">Open to new Odoo development opportunities, freelance projects, and collaborations.</p>
+    <a href="mailto:anwtv0@gmail.com" class="contact-email reveal">anwtv0@gmail.com</a>
+    <div class="contact-links reveal">
+      <a href="tel:+923043847216" class="contact-link">📞 +92-304-3847216</a>
+      <a href="https://linkedin.com/in/asad-nomanwattoo-797341227" target="_blank" class="contact-link">🔗 LinkedIn</a>
+      <a href="#" class="contact-link">📍 Lahore, Pakistan</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Designed & built for Asad Noman &nbsp;·&nbsp; Odoo ERP Developer &nbsp;·&nbsp; Lahore, Pakistan</p>
+</footer>
+
+<script>
+  // Cursor
+  const cursor = document.getElementById('cursor');
+  const ring = document.getElementById('cursorRing');
+  let mx = 0, my = 0, rx = 0, ry = 0;
+  document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+  function animCursor() {
+    cursor.style.transform = `translate(${mx - 6}px, ${my - 6}px)`;
+    rx += (mx - rx) * 0.12;
+    ry += (my - ry) * 0.12;
+    ring.style.transform = `translate(${rx - 18}px, ${ry - 18}px)`;
+    requestAnimationFrame(animCursor);
+  }
+  animCursor();
+
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 80);
+        obs.unobserve(e.target);
+      }
     });
-  </script>
- </body>
+  }, { threshold: 0.12 });
+  reveals.forEach(r => obs.observe(r));
+
+  // Skill bars
+  const bars = document.querySelectorAll('.skill-bar-fill');
+  const barObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.width = e.target.dataset.w + '%';
+        barObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.5 });
+  bars.forEach(b => barObs.observe(b));
+</script>
+</body>
 </html>
